@@ -6,7 +6,7 @@ Ce tutoriel s'adresse aux personnes qui comme moi, se seraient heurtées à ce m
 En l'occurrence, dans mon cas je suis dans un environement Conda, et je cherche à installer un package uniquement disponible sur PyPi. Ce package n'étant pas encore disponible dans l'architecture ARM, `pip` ne parvient pas à le trouver et donc à l'installer. Pour ce faire, nous allons installer une version de Python compilée en architecture x86_64 plutôt que ARM pour pouvoir retravailler avec nos packages préférés comme avant ! 🤗
 
 ⚠️ **DISCLAIMER :**
-Dans ce tutoriel, je ne prêche pas la vérité absolue mais simplement une solution de secours pour ceux qui comme moi, se seraient retrouvés confrontés à cette problématique. Je me suis inspiré librement de la solution proposée pour cette <a ref=https://stackoverflow.com/questions/68659865/cannot-pip-install-mediapipe-on-macos-m1>question</a> sur StackOverflow.
+Dans ce tutoriel, je ne prêche pas la vérité absolue mais simplement une solution de secours pour ceux qui comme moi, se seraient retrouvés confrontés à cette problématique. Je me suis inspiré librement de la solution proposée pour cette [question](https://stackoverflow.com/questions/68659865/cannot-pip-install-mediapipe-on-macos-m1) sur StackOverflow.
 
 Par conséquent, je me déleste de toute responsabilité si jamais cette installation venait à vous causer un quelconque tort (puisque moi aussi je serais concerné par ce tort :upside_down_face:), mais me tiens disponible pour toute question complémentaire.
 
@@ -36,7 +36,7 @@ Si vous ne le voyez pas au début, vous avez deux choix :
 echo 'export PATH=/opt/homebrew/bin:$PATH' >> ~/.zshrc
 ```
 
-- créer un alias `mybrew` (ou que sais-je `maurice` ?) qui va pointer vers l'exécutable dans `/opt/homebrew/bin`
+- créer un alias `mybrew` (ou que sais-je `marcel` par exemple ?) qui va pointer vers l'exécutable dans `/opt/homebrew/bin`
 
 ```bash
 echo 'alias mybrew=/opt/homebrew/bin/brew'
@@ -62,7 +62,7 @@ Et cochez la case "Open using Rosetta" (ou "Ouvrir avec Rosetta").
 
 ### 2. Installation de `brew` compilé en x86_64
 
-Et là vous me dites : "Mais quoi ?? Tu nous as dit d'avoir `brew` d'installé correctement en pré-requis et là tu veux nous faire installer `brew`, c'est quoi cette embrouille ?!". Ce à quoi je vous réponds : "Oui.".
+Et là vous me dites : "Mais quoi ?? Tu nous demande d'avoir `brew` d'installé correctement en pré-requis et là tu veux nous faire installer `brew`, c'est quoi cette embrouille ?!". Ce à quoi je vous réponds : "Oui.".
 
 Tout simplement pour la simple et bonne raison qu'il vous faut une version de `brew` compilée en x86_64 pour installer Python compilé en x86_64.
 
@@ -86,7 +86,7 @@ Sinon, changez le path vers l'executable du nouveau `brew` installé.
 
 ### 4. Créer un environement virtuel
 
-**Note :** si vous souhaitez une utilisation plus simple que celle proposée dans cette partie, sautez cette étape et allez jeter un oeil à la [partie suivante](#pour-aller-plus-loin-et-vous-simplifier-la-vie-relaxed).
+**Note :** si vous souhaitez une utilisation plus simple que celle proposée dans cette partie, sautez cette étape et allez jeter un oeil à la [partie suivante](#pour-aller-plus-loin-et-vous-simplifier-la-vie-relieved).
 
 Une fois l'installation de Python terminée (cela peut prendre plusieurs minutes), vous êtes désormais prêts à créer votre environement virtuel pour travailler avec cette version de Python.
 

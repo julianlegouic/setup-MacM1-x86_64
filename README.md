@@ -56,7 +56,7 @@ Localisez l'application Terminal dans Finder sous le dossier `Applications>Utili
 
 Si toutefois l'application était ouverte, fermez la (Cmd+Q). Ensuite faites un clic droit sur l'application Terminal, puis "Get info" (ou "Obtenir informations") :
 
-![terminal_info](https://drive.google.com/uc?export=view&id=1rbVgRpTaG0f0Z_4T9AeTYpkrFu5XhVvz)
+<img src="https://drive.google.com/uc?export=view&id=1rbVgRpTaG0f0Z_4T9AeTYpkrFu5XhVvz" width="377" height="752">
 
 Et cochez la case "Open using Rosetta" (ou "Ouvrir avec Rosetta").
 
@@ -131,13 +131,17 @@ which -a python # ou which -a python3
 Si vous obtenez un path pour chacune des deux commandes précédentes, tant mieux ! Vérifiez quand même que `pip` référence bien `pip3` et `python` référence Python 3 (par exemple tapez les dans le terminal).
 Sinon c'est que vous avez un soucis d'installation avec votre pip/Python (essayez bien avec et sans le 3 pour `which`).
 
-<u>**Pour les utilisateurs de PyEnv**</u>👇
+**Pour les utilisateurs de PyEnv**👇
 
 Si vous avez déjà installé PyEnv correctement sur votre machine, vous ne devriez pas avoir de soucis lors de l'installation (en plus d'être sacrément smart d'utiliser ce gestionnaire de version Python 😉).
 
-<u>**Pour les autres**</u>👇
+-----
+
+**Pour les autres**👇
 
 [Installez Pyenv](https://github.com/pyenv/pyenv#installation). Non plus sérieusement, PyEnv c'est franchement très sympa et hyper utile pour manipuler différentes versions de Python de la même manière que des environements virtuels. Rien ne vous y oblige bien sûr !
+
+-----
 
 Si tout fonctionne bien, vous pouvez lancer cette dernière commande :
 
@@ -171,7 +175,7 @@ export VIRTUALENVWRAPPER_VIRTUALENV=$(which virtualenv)
 Ici j'ai spécifié mon dossier `projects` pour mon `PROJECT_HOME`, mais vous pouvez choisir n'importe quel dossier. Ce sera là où vos dossiers de travail associés aux environements virtuels seront créés.
 
 <details>
-<summary><b>Plugin ZSH</b></summary>
+<summary><u><b>Plugin ZSH</b></u></summary>
 Trouvez la section des plugins zsh et ajoutez-y "virtualenvwrapper" comme ceci :
 
 ```bash

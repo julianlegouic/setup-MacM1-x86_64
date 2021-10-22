@@ -131,15 +131,13 @@ which -a python # ou which -a python3
 Si vous obtenez un path pour chacune des deux commandes précédentes, tant mieux ! Vérifiez quand même que `pip` référence bien `pip3` et `python` référence Python 3 (par exemple tapez les dans le terminal).
 Sinon c'est que vous avez un soucis d'installation avec votre pip/Python (essayez bien avec et sans le 3 pour `which`).
 
-<details>
-<summary><u><b>Pour les utilisateurs de PyEnv</b></u></summary>
-Si vous avez déjà installé PyEnv correctement sur votre machine, vous ne devriez pas avoir de soucis lors de l'installation (en plus d'être sacrément smart d'utiliser ce gestionnaire de version Python 😉).
-</details>
+<u>**Pour les utilisateurs de PyEnv**</u>👇
 
-<details>
-<summary><u><b>Pour les autres</b></u></summary>
-[Installez PyEnv](https://github.com/pyenv/pyenv#installation). Non plus sérieusement, PyEnv c'est franchement très sympa et hyper utile pour manipuler différentes versions de Python de la même manière que des environements virtuels. Rien ne vous y oblige bien sûr !
-</details>
+Si vous avez déjà installé PyEnv correctement sur votre machine, vous ne devriez pas avoir de soucis lors de l'installation (en plus d'être sacrément smart d'utiliser ce gestionnaire de version Python 😉).
+
+<u>**Pour les autres**</u>👇
+
+[Installez Pyenv](https://github.com/pyenv/pyenv#installation). Non plus sérieusement, PyEnv c'est franchement très sympa et hyper utile pour manipuler différentes versions de Python de la même manière que des environements virtuels. Rien ne vous y oblige bien sûr !
 
 Si tout fonctionne bien, vous pouvez lancer cette dernière commande :
 
@@ -184,7 +182,7 @@ plugins=(
 ```
 
 Note : si toutefois lors du prochain redémarrage, votre terminal se ferme tout seul d'un coup, enlenvez le `virtualenvwrapper` de vos plugins.
-</details></br>
+</details>
 
 Redémarrez une nouvelle fois votre terminal et...
 

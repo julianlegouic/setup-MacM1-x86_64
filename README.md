@@ -132,14 +132,14 @@ Si vous obtenez un path pour chacune des deux commandes précédentes, tant mieu
 Sinon c'est que vous avez un soucis d'installation avec votre pip/Python (essayez bien avec et sans le 3 pour `which`).
 
 <details>
-<summary>Pour les utilisateurs de PyEnv</summary>
+<summary><u><b>Pour les utilisateurs de PyEnv</b></u></summary>
 Si vous avez déjà installé PyEnv correctement sur votre machine, vous ne devriez pas avoir de soucis lors de l'installation (en plus d'être sacrément smart d'utiliser ce gestionnaire de version Python 😉).
-</details></br>
+</details>
 
 <details>
-<summary>Pour les autres</summary>
-<a ref=https://github.com/pyenv/pyenv#installation>Installez PyEnv</a>. Non plus sérieusement, PyEnv c'est franchement très sympa et hyper utile pour manipuler différentes versions de Python de la même manière que des environements virtuels. Rien ne vous y oblige bien sûr !
-</details></br>
+<summary><u><b>Pour les autres</b></u></summary>
+[Installez PyEnv](https://github.com/pyenv/pyenv#installation). Non plus sérieusement, PyEnv c'est franchement très sympa et hyper utile pour manipuler différentes versions de Python de la même manière que des environements virtuels. Rien ne vous y oblige bien sûr !
+</details>
 
 Si tout fonctionne bien, vous pouvez lancer cette dernière commande :
 
